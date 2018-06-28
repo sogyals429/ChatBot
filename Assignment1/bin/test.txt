@@ -1,0 +1,37 @@
+Excellent work but avoid ArrayLists, use only arrays for the 'normal' part. 
+for loops must not be used. 
+Remember to have a close read of the specification PDF and question your work. 
+System.exit() must not be used, work the stopping in to the loop condition. 
+Please handle input validation like shown in the class materials (i.e. using while loops)... avoid try..catch.
+ 
+ 
+ System.out.println(i + ") Enter keyword:");
+                String keyword = input.next();
+                if(keywords.contains(keyword)){
+                    System.out.println("Cannot enter the same keyword!!");
+                    System.out.println("Please enter another keyword:");
+                    String reInput = input.next();
+                    keywords.add(reInput);
+                }else{
+                    keywords.add(keyword);
+                }
+               
+                
+                
+                if (accessKeywords.equals(keywords[i])) {
+				System.out.println("Cannot enter the same keyword!!");
+				System.out.println("Please enter another keyword:");
+				keyword = input.next();
+			}
+			
+		String searchKeyword = keywords[i];
+				boolean contains = false;
+				int s=0;
+					while(s<keywords.length) {
+						if(keywords[s].equals(searchKeyword)) {
+							contains = true;
+						}
+						s++;
+					}
+					
+				i++;

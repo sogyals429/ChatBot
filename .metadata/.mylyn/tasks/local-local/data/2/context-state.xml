@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ChatBot.java" partName="ChatBot.java" title="ChatBot.java" tooltip="Assignment1/src/ChatBot.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment1/src/ChatBot.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1302" selectionTopPixel="385"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test.txt" partName="test.txt" title="test.txt" tooltip="Assignment1/src/test.txt">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Assignment1/src/test.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="141" selectionTopPixel="0"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
